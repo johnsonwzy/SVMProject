@@ -47,12 +47,14 @@
         <Button
             android:id="@+id/btn_start_collection"
             style="@style/SvmBtnStyle"
-            android:text="开始采集!" />
+            android:text="开始采集!"
+            android:background="@drawable/btn_selector"/>
 
         <Button
             android:id="@+id/btn_stop_collection"
             style="@style/SvmBtnStyle"
-            android:text="停止采集!" />
+            android:text="停止采集!"
+            android:background="@drawable/btn_selector"/>
     </LinearLayout>
 
     <EditText
